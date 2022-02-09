@@ -1,0 +1,13 @@
+Core Attribute
+ - ID
+ - Title
+ - Class
+ - Style
+
+Generic
+ - align
+ - valign
+ - bgcolor
+ - background
+ - width
+ - height
