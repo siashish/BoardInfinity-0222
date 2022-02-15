@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <h1> the td rowspan </h1>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            border-color: black;
+        }
+    </style>
+    <table>
+        <tr>
+            <th>Month</th>
+            <th>Savings</th>
+            <th>Savings for holiday</th>
+        </tr>
+        <tr>
+            <td>January</td>
+            <td>$100</td>
+            <td rowspan="2">$50</td>
+        </tr>
+        <tr>
+            <td>Feb</td>
+            <td>$80</td>
+        </tr>
+    </table>
+</html>
